@@ -24,7 +24,8 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-
+  drivers.unshift(name)
+  return drivers
 }
 
 function removeLastDriver() {
