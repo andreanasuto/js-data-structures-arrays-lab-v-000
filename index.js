@@ -22,3 +22,16 @@ function appendDriver(name) {
   let new_array = [...drivers,name]
   return new_array
 }
+
+function prependDriver(name) {
+
+}
+
+function removeLastDriver() {
+
+}
+
+function removeFirstDriver() {
+  drivers.shift()
+  return drivers
+}
