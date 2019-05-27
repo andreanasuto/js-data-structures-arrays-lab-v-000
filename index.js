@@ -24,8 +24,8 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  drivers.unshift(name)
-  return drivers
+  new_array = [name, ...drivers]
+  return new_array 
 }
 
 function removeLastDriver() {
