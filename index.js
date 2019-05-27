@@ -29,8 +29,7 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  let new_array
-  new_array = [...drivers]
+  let new_array = [...drivers]
   return new_array.pop()
 }
 
