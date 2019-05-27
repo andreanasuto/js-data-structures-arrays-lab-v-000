@@ -30,7 +30,7 @@ function prependDriver(name) {
 
 function removeLastDriver() {
   new_array = [...drivers]
-  return new_array.unshift
+  return new_array.unshift()
 }
 
 function removeFirstDriver() {
