@@ -29,8 +29,8 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  drivers.pop()
-  return drivers
+  new_array = [...drivers]
+  return new_array.unshift
 }
 
 function removeFirstDriver() {
