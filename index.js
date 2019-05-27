@@ -36,5 +36,6 @@ function removeLastDriver() {
 
 function removeFirstDriver() {
   let new_array = [...drivers]
-  return new_array.shift()
+  new_array.shift()
+  return new_array
 }
