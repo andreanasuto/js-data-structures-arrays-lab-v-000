@@ -25,7 +25,7 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   new_array = [name, ...drivers]
-  return new_array 
+  return new_array
 }
 
 function removeLastDriver() {
