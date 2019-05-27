@@ -6,7 +6,7 @@ function destructivelyAppendDriver(name) {
 }
 
 function destructivelyPrependDriver(name) {
-  return drivers.slice(2)
+  return drivers.unshift(0)
 }
 
 function destructivelyRemoveLastDriver() {
@@ -30,7 +30,7 @@ function prependDriver(name) {
 
 function removeLastDriver() {
   new_array = [...drivers]
-  return new_array.shift(drivers.lenght)
+  return new_array.shift()
 }
 
 function removeFirstDriver() {
