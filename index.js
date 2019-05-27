@@ -17,3 +17,8 @@ function destructivelyRemoveFirstDriver() {
    drivers.shift()
    return drivers
 }
+
+function appendDriver(name) {
+  let new_array = [...drivers,name]
+  return new_array
+}
